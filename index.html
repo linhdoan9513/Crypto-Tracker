@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Cryptocurrency Tracker</title>
+</head>
+
+<body>
+    <header class="wrapper">
+        <h1>Top Business News Today</h1>
+        <div class="news-container">
+            <article class="news-section1">
+                <img class="news-icon" src="./assets/crypto2.png" alt="icon for news">
+                <div class="clickable-section">
+                    <h4>News of The Day</h4>
+                    <p class="news-content1"></p>
+                    <a class="news-link1">News Links</a>
+                </div>
+            </article>
+            <article class="news-section2">
+                <img src="./assets/icon copy.png" alt="icon for news">
+                <div class="clickable-section2">
+                    <h4>News of The Day</h4>
+                    <p class="news-content2"></p>
+                    <a class="news-link2">News Links</a>
+                </div>
+            </article>
+            <article class="news-section3">
+                <img src="./assets/icon.png" alt="icon for news">
+                <div class="clickable-section3">
+                    <h4>News of The Day</h4>
+                    <p class="news-content3"></p>
+                    <a class="news-link3">News Links</a>
+                </div>
+            </article>
+        </div>
+    </header>
+
+    <main class="wrapper">
+        <section>
+            <h2>Crypto Prices, Charts, Lists & Crypto Market News</h2>
+            <div class="global-market">
+                <article>
+                    <p>Total Market Cap <span>&#x25BC;</span></p>
+                    <h3 class="total-market-cap">$710.07B</h3>
+                    <p>USD ($)</p>
+                </article>
+                <article>
+                    <p>24h Volume <span>&#x25BC;</span> </p>
+                    <h3 class="volume">86.73%</h3>
+                    <p>USD ($)</p>
+                </article>
+                <article>
+                    <p>Bitcoin Price <span>&#x25BC;</span></p>
+                    <h3 class="bitcoin-price"></h3>
+                    <p>USD ($)</p>
+                </article>
+            </div>
+        </section>
+        
+        <section>
+            <table class="crypto-table">
+                <tr>
+                    <th>Rank</th>
+                    <th colspan="2">Name</th>
+                    <th>Price</th>
+                    <th class="align-right">24h%</th>
+                    <th class="align-right">7d%</span></th>
+                    <th class="market-cap align-right">Market Cap <span>&#x25BC;</span></th>
+                    <th class="align-right">Volume <span>&#x25BC;</span></th>
+                    <th class="supply align-right">Circulating Supply</th>
+                    <th class="chart">Last 7 Days</th>
+                </tr>
+            </table>
+        </section>
+    </main>
+    <footer class="wrapper">Created at <a href="https://junocollege.com/">Juno College of Technology</a></footer>
+</body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.3.2/chart.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+    <script src="app.js"></script>
+
+</html>
